@@ -1,5 +1,5 @@
-# python_study
-Sample linked list library
+# python_singly_linkedlist
+- A simple linked list library
 
 
 
