@@ -99,11 +99,11 @@ function build() {
 
     # https://packaging.python.org/glossary/#term-Built-Distribution
     echo "Contents of wheel file(built distribution):"
-    unzip -l "dist/$(ls dist|grep whl)"
+    unzip -l dist/*whl
 
     # https://packaging.python.org/glossary/#term-Source-Archive
     echo "Contents of tar file(source archive):"
-    tar --list -f  "dist/$(ls dist|grep tar)"
+    tar --list -f  dist/*tar.gz
 
     loginfo "Build - end"
 
