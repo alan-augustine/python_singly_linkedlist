@@ -1,0 +1,10 @@
+bin
+lib
+pyvenv.cfg
+__pycache__
+*.pyc
+venv_dir
+dist
+log_pypi_server.log
+pypi_packages
+*egg*
